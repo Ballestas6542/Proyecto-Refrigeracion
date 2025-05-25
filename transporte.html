@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Transporte - Refrigeración S.A.S</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<header>
+  <div class="top-bar">
+  <div class="logo">
+    <img src="https://d500.epimg.net/cincodias/imagenes/2015/05/08/pyme/1431098283_691735_1431098420_noticia_normal.jpg" alt="Logo Refrigeración S.A.S" width="150"/>
+  </div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="servicios.html">Servicios</a></li>
+      <li><a href="proyectos.html">Proyectos</a></li>
+      <li><a href="transporte.html">Transporte</a></li>
+      <li><a href="contacto.html">Contáctenos</a></li>
+      <li><a href="tablas.html">Tabla</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <section>
+    <h2>Servicio de Transporte</h2>
+    <p>
+      En Refrigeración S.A.S ofrecemos transporte seguro y especializado para equipos de refrigeración,
+      cámaras frías, sistemas industriales y más. Contamos con vehículos acondicionados, personal capacitado
+      y cobertura a nivel nacional. Más de 2 años garantizando entregas seguras y a tiempo.
+    </p>
+    <img src="https://www.clarin.com/img/2022/12/26/HaJJsHqrR_2000x1500__1.jpg" alt="Camión de transporte de equipos de refrigeración" />
+  </section>
+
+  <p class="descripcion-img">
+    Nuestro camión refrigerado cuenta con sistemas de temperatura controlada ideales para el transporte
+    de productos alimenticios perecederos, asegurando su conservación durante todo el trayecto. Ideal para supermercados,
+    restaurantes y distribuidores mayoristas.
+    </p>
+    <img src="https://image.made-in-china.com/2f0j10FvVQolfsLKpm/-Cami-n-refrigerado-HYJ5064XLC-.jpg" alt="Camión de transporte de productos alimenticios refrigerados" 
+    class="img-servicio" />
+    </section>
+    
+    <section>
+    <h2>Solicitar Transporte</h2>
+    <form class="formulario-transporte" action="https://formsubmit.co/empresarefrigeracionsas@gmail.com" method="POST" novalidate>
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+
+      <label for="apellido">Apellido:</label>
+      <input type="text" id="apellido" name="apellido" required>
+
+      <label for="cedula">Cédula:</label>
+      <input type="text" id="cedula" name="cedula" required>
+
+      <label for="fecha">Fecha de traslado:</label>
+      <input type="date" id="fecha" name="fecha" required>
+
+      <label for="origen">Ciudad de origen:</label>
+      <input type="text" id="origen" name="origen" required>
+
+      <label for="destino">Ciudad de destino:</label>
+      <input type="text" id="destino" name="destino" required>
+
+      <label for="descripcion">Descripción del equipo:</label>
+      <textarea id="descripcion" name="descripcion" rows="4" required></textarea>
+
+      <button type="submit">Enviar solicitud</button>
+    </form>
+  </section>
+</main>
+
+<section class="comentarios">
+  <h2>Comentarios de Clientes</h2>
+
+  <div class="comentario">
+    <p class="nombre">Carlos Rodríguez</p>
+    <p class="texto">El servicio de transporte fue puntual y cuidadoso. ¡Totalmente recomendable!</p>
+  </div>
+
+  <div class="comentario">
+    <p class="nombre">Luis Herrera</p>
+    <p class="texto">Muy satisfecho con la logística y la seguridad del transporte. Repetiré con ellos.</p>
+  </div>
+
+  <div class="comentario">
+    <p class="nombre">María Gómez</p>
+    <p class="texto">Transportaron nuestro sistema de refrigeración industrial sin inconvenientes. Excelente atención.</p>
+  </div>
+
+  <footer>
+  
+    <section class="contacto-linea">
+  <div class="info-contacto">
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icono" viewBox="0 0 24 24" fill="white"><path d="M12 2C8.14 2 5 5.14 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.86-3.14-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5S10.62 6.5 12 6.5s2.5 1.12 2.5 2.5S13.38 11.5 12 11.5z"/></svg>
+      Calle 45 #21-56, Barranquilla
+    </p>
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icono" viewBox="0 0 24 24" fill="white"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5-8-5V6l8 5 8-5v2z"/></svg>
+      contacto@refrigeracionsas.com
+    </p>
+    <p>
+      <svg xmlns="http://www.w3.org/2000/svg" class="icono" viewBox="0 0 24 24" fill="white"><path d="M6.62 10.79a15.05 15.05 0 006.59 6.59l2.2-2.2a1 1 0 011.11-.21 11.36 11.36 0 003.59.57 1 1 0 011 1v3.75a1 1 0 01-1 1A16 16 0 013 5a1 1 0 011-1h3.75a1 1 0 011 1 11.36 11.36 0 00.57 3.59 1 1 0 01-.21 1.11l-2.2 2.2z"/></svg>
+      +57 320 456 7890
+    </p>
+  </div>
+
+   <div class="redes-sociales">
+ 
+    <a href="https://www.facebook.com/RefrigeracionSAS" target="_blank" aria-label="Facebook">
+        <span class="fab fa-facebook" style="font-size: 50px; color:white;"></span><br>
+    <span>Facebook</span>
+    </a>
+
+
+    <a href="https://www.instagram.com/RefrigeracionSAS" target="_blank" aria-label="Instagram">
+        <span class="fab fa-instagram" style="font-size: 50px; color:white;"></span><br>
+    <span>Instagram</span>
+    </a>
+    </div>
+
+  <p style="margin-top: 20px;">&copy; 2025 Refrigeración S.A.S | Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
